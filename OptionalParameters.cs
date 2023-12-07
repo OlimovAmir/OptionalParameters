@@ -14,15 +14,15 @@ namespace OptionalParameters
             if (enableLogging)
             {
                 Console.WriteLine("Value valiable a = " + a);
-                Console.WriteLine("Value valiable a = " + b);
-                Console.WriteLine("Value valiable a = " + result);
+                Console.WriteLine("Value valiable b = " + b);
+                Console.WriteLine("Value valiable result = " + result);
             }
 
             return result;
         }
         static void Main(string[] args)
         {
-
+            int result = Sum(1, 2, true);
         }
     }
 }
